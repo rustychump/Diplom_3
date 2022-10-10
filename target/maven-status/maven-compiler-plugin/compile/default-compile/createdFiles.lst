@@ -1,0 +1,9 @@
+cards\ResponseAuthUserCard.class
+pageobject\MainPage.class
+pageobject\RestorePasswordPage.class
+pageobject\SignUpPage.class
+cards\CreateUserCard.class
+pageobject\ProfilePage.class
+pageobject\LogInPage.class
+cards\UserCard.class
+pageobject\ConstructorSection.class
