@@ -4,9 +4,6 @@ import org.junit.Test;
 import pageobject.ConstructorPage;
 
 public class TestSignOut extends BaseTest {
-    public TestSignOut(String browserChoice) {
-        super(browserChoice);
-    }
 
     @Test
     @DisplayName("Проверка выхода по кнопке «Выйти» в личном кабинете")

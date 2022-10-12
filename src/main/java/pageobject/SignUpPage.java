@@ -10,11 +10,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class SignUpPage extends GeneralMenu {
-    @FindBy(xpath = ".//form[@class='Auth_form__3qKeq mb-20']/fieldset[1]/div/div/input")
     //поле ввода "Имя"
+    @FindBy(xpath = ".//label[text()='Имя']/parent::div/input")
     private WebElement nameField;
     //поле ввода "Email"
-    @FindBy(xpath = ".//form[@class='Auth_form__3qKeq mb-20']/fieldset[2]/div/div/input")
+    @FindBy(xpath = ".//label[text()='Email']/parent::div/input")
     private WebElement emailField;
     //поле ввода "Пароль"
     @FindBy(name = "Пароль")

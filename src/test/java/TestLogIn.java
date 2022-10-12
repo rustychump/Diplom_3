@@ -5,9 +5,6 @@ import pageobject.LogInPage;
 import pageobject.ConstructorPage;
 
 public class TestLogIn extends BaseTest {
-    public TestLogIn(String browserChoice) {
-        super(browserChoice);
-    }
 
     @Test
     @DisplayName("Вход по кнопке «Войти в аккаунт» на главной")

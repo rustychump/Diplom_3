@@ -4,9 +4,6 @@ import org.junit.Test;
 import pageobject.ConstructorPage;
 
 public class TestGoToAnyPage extends BaseTest {
-    public TestGoToAnyPage(String browserChoice) {
-        super(browserChoice);
-    }
 
     @Test
     @DisplayName("Проверка перехода в личный кабинет по клику на кнопку «Личный кабинет»")
